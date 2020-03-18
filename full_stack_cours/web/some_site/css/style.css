@@ -1,0 +1,37 @@
+h1,
+h2 {
+    color: rgb(233, 175, 15);
+}
+p {
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+.about-heading {
+    color: rgb(240, 17, 17);
+}
+.important-text {
+    color: #000;
+    font-weight: 700;
+}
+
+.items
+{
+	border: 2px solid red;
+	border-collapse: collapse;
+}
+
+.items tr
+{
+	border: 2px solid red;
+}
+
+.items tbody tr:nth-of-type(2n+1) { 
+    background-color: rgb(252, 198, 128); 
+}
+
+.items td {
+    width: 300px; ❸
+    height: 50px; ❸
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
