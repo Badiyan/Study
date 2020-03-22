@@ -5,6 +5,8 @@ h2 {
 p {
     font-size: 20px;
     color: rgb(94, 94, 94);
+    display: inline-block;
+    width: 60ch;
 }
 .about-heading {
     color: rgb(240, 17, 17);
