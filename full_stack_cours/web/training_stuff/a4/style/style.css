@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	background-image: url('../img/intro-back.jpg');
+	background-color: #5B0808;
+	background-repeat: no-repeat;
+    background-size: cover;
+   	background-position: 50% 100%;
+	font-size: 30px;
+	font-weight: bolder;
+	font-style: normal;
+	color: #fff;
+	padding: 50px 25px;
+}
+
+header{
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main{
+
+}
+
+.site-menu {
+	margin: 10px;
+	padding: 10px;
+	display: flex;
+	list-style: none;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+header a{
+	text-decoration: none;
+	font-size: 40px;
+	color: #fff;
+}
+
+.site-menu li{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.main-img {
+	display: flex;
+	justify-content: center;
+}
+
+.site-menu li:hover {
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black, 0 0 1em #9F9CAD;
+}
+
+.chart:hover{
+	text-decoration: underline;
+	text-shadow: 1px 1px 2px black, 0 0 1em #9F9CAD;
+}
+
+
+.chart::before{
+	content: '\1F6D2';
+	font-size: 40px;
+}
+
+form input{
+	height: 30px;
+	width: 30%;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 20px;
+}
+
+form button {
+	color: #000;
+	background-color: #9F9CAD;
+	font-size: 20px;
+}
+
+fieldset {
+	display: inline-flex;
+}
