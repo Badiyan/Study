@@ -1,0 +1,208 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+* {
+	font-style: normal;
+	font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    background: rgb(199,194,235);
+    background: linear-gradient(90deg, rgba(199,194,235,1) 0%, rgba(232,228,194,1) 49%, rgba(173,216,224,1) 100%);
+	}
+
+p{
+    margin: 0px;
+}
+
+.content{
+    margin: 40px 70px 0px 70px;
+    letter-spacing:2px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: justify;
+    color: rgb(92, 87, 226);
+}
+
+.content::first-letter{
+    font-size: 60px;
+    color: rgb(116, 112, 233);
+    text-shadow:  2px 2px 2px rgb(103, 76, 223);
+  
+}
+
+
+h1,h2{
+    text-align: center;
+    margin: 0px;
+    align-self: start;
+    font-size: 20px;
+    color: rgb(116, 112, 233);
+    text-shadow:  2px 2px 2px rgb(15, 0, 82);
+    font-style: oblique;
+}
+
+h1{
+    font-size: 30px;  
+}
+
+hr{
+    margin: 0px 60px 0px 60px;
+    box-shadow: 0px 1px 20px 2px rgb(103, 76, 223);
+    
+}
+
+.wrapper {
+    margin: 30px;
+    display: flex;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 30px;
+    text-align: left;
+    font-family: 'Pangolin', cursive;
+    background: rgb(212, 229, 238);
+    background-position: top;
+    background-image: url('https://i.gifer.com/ZOHV.gif') ;
+    background-size: 10% ;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    letter-spacing:3px;
+    text-shadow:1px 3px rgb(156, 154, 231);
+    color: rgb(51, 0, 0);
+    font-size: 2.5vw;
+  }
+
+
+.header-gif{
+    display: flex;
+    margin: 0px 100px 0px 0px;
+}    
+.header-text{
+    display: flex;
+    margin: 30px 0px 0px 100px;
+}   
+
+.header-text::before {
+    content: '\1F414';
+}
+
+.header-text::after {
+    content: '\1F414';
+  }
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+.block{
+    margin: 0px 60px;
+    width: 50%;
+    
+}
+
+.container{
+    margin: 0px;
+}
+
+.menu{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+input{
+    
+}
+
+.menu_body {
+    margin: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.cont_input {
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.input{
+ margin: 0px;
+ margin-left: 50px;
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+ outline: none;
+ box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ width: 200px;
+ height: 30px;
+ background: #fff;
+ margin-bottom: 5%;
+ border: 1px solid #ccc;
+ padding: 3%;
+ color: #555;
+ font: 95% Arial, Helvetica, sans-serif;
+}
+
+.input:focus{
+    box-shadow: 0 0 5px rgb(117, 67, 209);
+	padding: 3%;
+	border: 1px solid rgb(95, 0, 247); 
+}
+
+
+.cont_input{
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 50%; 
+}
+
+.empty_block{
+    margin: 0px;
+    width: 200px;
+    height: 38px;
+}
+
+.menu_buttons{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    width: 29%;
+	padding: 3%;
+	background: rgba(15, 0, 82, 0.685);
+	border-bottom: 2px solid rgba(15, 0, 82, 0.808);
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: rgb(217, 209, 235);
+}
+.output_text{
+    margin: 40px 70px 0px 70px;
+    letter-spacing:2px;
+    font-size: 25px;
+    line-height: 25px;
+    text-align: justify;
+    color: rgb(92, 87, 226);
+}
+
+.output_text::first-letter{
+    font-size: 60px;
+    color: rgb(116, 112, 233);
+    text-shadow:  2px 2px 2px rgb(103, 76, 223);
+  
+}
